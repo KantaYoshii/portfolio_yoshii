@@ -1,0 +1,99 @@
+body{
+    font-family: "Noto Sans JP", sans-serif; /*フォント指定*/
+    color: #333333; /*色指定*/
+    line-height: 1.5;/*行間*/
+    background-color: #ffffff;/*背景色*/
+    background-image:url("./images/bg_yoshii.png");
+    background-repeat: repeat;
+    background-position: top left;
+}
+
+
+.section1 h1{
+    font-size: 30px;
+    font-weight:  700;
+    line-height: 1.4;
+    text-align: center;
+    padding: 40px;
+}
+
+.section2 .row{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 0px;
+}
+
+.section2 .col:first-child{ /*最初の.col*/
+    width: 40%;
+        text-align: right;
+        padding: 0 15px 0 0;
+}
+.section2 .col:last-child{ /*最初の.col*/
+    width: 49%;
+}
+
+.section2 .col .first{
+    margin-top: -10px;
+    vertical-align: top;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    text-align: center;
+    }
+/* .section2 .col .first  */
+.section2 .col .first span{
+    padding: 0 20px;
+}
+.section2 .col .second{
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    font-weight: 700;
+}
+.section2 .col .second .text1{
+    padding: 10px 0 0 0;
+}
+.section2 .col .second .text2{
+    padding: 10px 0 35px 100px;
+}
+.section2 .col .second .text2 span.title{
+    text-decoration:underline;
+    color:blue
+}
+.section2 .col .second .text2 span.new{
+    color: #ff0000
+}
+
+.section2 .col .second .text3 span.title{
+    text-decoration:underline;
+        color:blue
+}
+.section2 .col .third{
+        font-weight: 700;
+
+}
+
+.section2 .col .third .text1{
+        font-weight: 700;
+    padding: 30px 0 30px 0;
+}
+
+
+.section3 .container .text1{
+    padding: 30px 0 50px 150px;
+}
+
+.section3 .container .text2{
+    padding: 0 0 0 150px;
+}
+.section3 .container .address{
+    padding: 10px 0 50px 150px;
+
+}
+.section3 .container .address span{
+            text-decoration:underline;
+    color:blue
+}
+
+.section3 .container .text3{
+        padding: 0 0 50px 150px;
+}
